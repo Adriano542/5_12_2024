@@ -251,3 +251,24 @@ h2.classList.contains("title");
 
 // IV. ----------------TWORZENIE I DODAWANIE ELEMENTÓW ---------------
 //  Na początku muszę coś stworzyć aby potem zmodyfikować
+
+
+
+
+
+
+
+
+firstLi.textContent = "text" //modyfikacja elementu
+
+//2. innwerHTML 
+//używam go jeśli chce umieścic HTML
+const firstLi = document.querySelector("li:first-child");
+innerHTML = '<strong>Pogrubienie</strong>'
+
+//3. Style
+//dodawanie
+//js nie pozwala nadpisywać font-size, zatem używamy notacji wielbłądziej np. fontSize
+//np. 
+const firstLi = document.querySelector("li:first-child");
+firstLi.
