@@ -274,3 +274,13 @@ const firstLi = document.querySelector("li:first-child");
 firstLi.style.fontSize = "30px";
 firstLi.style.backgroundColor = "#ccc";
 firstLi.style.letterSpacing = "12px"
+
+
+
+//metoda toogle
+//jeśli dana klasa jest to ją zabierze, jeżeli nie ma to ją doda
+firstLi.classList.toogle("space")
+
+firstLi.classList.add("space")
+
+firstLi.classList.remove("space")
