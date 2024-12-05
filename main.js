@@ -271,4 +271,6 @@ innerHTML = '<strong>Pogrubienie</strong>'
 //js nie pozwala nadpisywać font-size, zatem używamy notacji wielbłądziej np. fontSize
 //np. 
 const firstLi = document.querySelector("li:first-child");
-firstLi.
+firstLi.style.fontSize = "30px";
+firstLi.style.backgroundColor = "#ccc";
+firstLi.style.letterSpacing = "12px"
